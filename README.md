@@ -10,7 +10,9 @@ Up till now, it only supports mips core instruction and some other instructions.
 **The implement might quite differ from real MIPS CPU.**  
 **What's more, this is only for simulation and not support synthesize.**  
 **To support synthesize, you should add extra IO.**  
----  
+---
+
+---
 The instructions it support.  
 1. add  
 2. sub  
@@ -24,8 +26,8 @@ The instructions it support.
 10. andi  
 11. addi  
 12. ori  
-  
 ---  
+  
 ## Hope you can help me improve this program.  
 
 
