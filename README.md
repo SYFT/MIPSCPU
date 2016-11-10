@@ -26,6 +26,7 @@ The instructions it support.
 10. andi  
 11. addi  
 12. ori  
+
 ---  
   
 ## Hope you can help me improve this program.  
