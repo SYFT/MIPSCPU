@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/workspace/verilog/CPUSingleCycle/CPU_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CPU_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/CPU_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/GOE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GOE</obj_property>
+      <obj_property name="ObjectShortName">GOE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/register/regs[8]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[8,31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[8,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/register/regs[9]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[9,31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[9,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/memWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memWrite</obj_property>
+      <obj_property name="ObjectShortName">memWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/memToReg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memToReg</obj_property>
+      <obj_property name="ObjectShortName">memToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/memRead" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memRead</obj_property>
+      <obj_property name="ObjectShortName">memRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/extSel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">extSel</obj_property>
+      <obj_property name="ObjectShortName">extSel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/regWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regWrite</obj_property>
+      <obj_property name="ObjectShortName">regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/regDst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regDst</obj_property>
+      <obj_property name="ObjectShortName">regDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/aluSrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">aluSrc</obj_property>
+      <obj_property name="ObjectShortName">aluSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/Zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/jump" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/aluOp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluOp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOp[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/aluCtrlOp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluCtrlOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">aluCtrlOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/cpu/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+</wave_config>
