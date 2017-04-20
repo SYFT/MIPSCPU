@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/workspace/verilog/CPUSingleCycle/CPU_test_isim_beh.exe" -prj "F:/workspace/verilog/CPUSingleCycle/CPU_test_beh.prj" "work.CPU_test" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/workspace/FinishedProjects/CPUSingleCycle/CPU_test_isim_beh.exe" -prj "F:/workspace/FinishedProjects/CPUSingleCycle/CPU_test_beh.prj" "work.CPU_test" "work.glbl" 

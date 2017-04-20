@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "F:/workspace/verilog/CPUSingleCycle/CPU_test.v";
+static const char *ng0 = "F:/workspace/FinishedProjects/CPUSingleCycle/CPU_test.v";
 static int ng1[] = {1, 0};
 static int ng2[] = {0, 0};
 

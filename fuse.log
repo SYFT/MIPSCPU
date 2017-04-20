@@ -1,28 +1,28 @@
-Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/workspace/verilog/CPUSingleCycle/CPU_test_isim_beh.exe" -prj "F:/workspace/verilog/CPUSingleCycle/CPU_test_beh.prj" "work.CPU_test" "work.glbl" 
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/workspace/FinishedProjects/CPUSingleCycle/CPU_test_isim_beh.exe" -prj "F:/workspace/FinishedProjects/CPUSingleCycle/CPU_test_beh.prj" "work.CPU_test" "work.glbl" 
 ISim P.49d (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/ShiftLeft2.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/Register.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/ProgramCounter.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/Mux5.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/Mux32.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/InstructionMemory.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/Extend.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/DataMemory.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/ControlUnit.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/And.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/ALUControl.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/ALU.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/Add.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/CPU.v" into library work
-Analyzing Verilog file "F:/workspace/verilog/CPUSingleCycle/CPU_test.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/ShiftLeft2.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/Register.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/ProgramCounter.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/Mux5.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/Mux32.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/InstructionMemory.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/Extend.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/DataMemory.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/ControlUnit.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/And.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/ALUControl.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/ALU.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/Add.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/CPU.v" into library work
+Analyzing Verilog file "F:/workspace/FinishedProjects/CPUSingleCycle/CPU_test.v" into library work
 Analyzing Verilog file "D:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 121036 KB
-Fuse CPU Usage: 202 ms
+Fuse Memory Usage: 121032 KB
+Fuse CPU Usage: 826 ms
 Compiling module InstructionMemory
 Compiling module ControlUnit
 Compiling module Mux5
@@ -42,6 +42,6 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 9 sub-compilation(s) to finish...
 Compiled 16 Verilog Units
-Built simulation executable F:/workspace/verilog/CPUSingleCycle/CPU_test_isim_beh.exe
-Fuse Memory Usage: 126652 KB
-Fuse CPU Usage: 451 ms
+Built simulation executable F:/workspace/FinishedProjects/CPUSingleCycle/CPU_test_isim_beh.exe
+Fuse Memory Usage: 126648 KB
+Fuse CPU Usage: 1309 ms

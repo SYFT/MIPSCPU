@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "F:/workspace/verilog/CPUSingleCycle/Add.v";
+static const char *ng0 = "F:/workspace/FinishedProjects/CPUSingleCycle/Add.v";
 
 
 
